@@ -130,6 +130,19 @@ MetaMan is designed to sit on top of your existing folder structure and give you
   - Match on **ID column** (tolerant to formats) and map to animal folders
 
 ---
+Typical dependencies (for reference):
+
+PySide6
+
+pandas
+
+numpy
+
+h5py
+
+openpyxl (for Excel imports)
+
+plus standard library (json, os, etc.)
 
 ## Data Model & Folder Structure
 
@@ -149,16 +162,4 @@ raw_root/
       ...
   ProjectB/
     ...
-Typical dependencies (for reference):
 
-PySide6
-
-pandas
-
-numpy
-
-h5py
-
-openpyxl (for Excel imports)
-
-plus standard library (json, os, etc.)
